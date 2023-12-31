@@ -5,11 +5,36 @@
         <meta charset="UTF-8">
         <meta title="Página de Cadastro">
         <meta author="Daniel Lourenço Affonso">
-        <title>Cadastre-se Já</title>
-        <link rel="">y
+        <title>Página de agradecimento</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="<https://pyscript.net/latest/pyscript.js>"></script>
     </head>
     <body>
-"Obrigado por se cadastrar na nossa plataforma; {escape(user_name)}. <br>Verifique o email que enviamos para {escape(user_mail)} para validar seu Acesso :)"
+    <div class="mensagem_agradecimento">
+        <p>
+         "Obrigado por se cadastrar na nossa plataforma; {escape(user_name)}. <br>Verifique o email que enviamos para {escape(user_mail)} para validar seu Acesso :)"
+        </p>
+    </div>
+
+    <div class="form_codigo">
+        <form action="post">
+            <label>
+                Insira o código enviado:
+            </label>
+            <input type="text" id="cod1" class="cod_verif" placeholder="_">
+            <input type="text" id="cod2" class="cod_verif" placeholder="_">
+            <input type="text" id="cod3" class="cod_verif" placeholder="_">
+            <input type="text" id="cod4" class="cod_verif" placeholder="_">
+            <input type="text" id="cod5" class="cod_verif" placeholder="_">
+            <input type="submit" value="Verificar">
+        </form>
+    <py-script> 
+        <a href="">Reenviar código</a>
+    </py-script>
+    </div>
+
     </body>
+
 </html>

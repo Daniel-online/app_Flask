@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <head>
+        <meta lang="pt-br">
+        <meta charset="UTF-8">
+        <meta title="Página de Acesso">
+        <meta author="Daniel Lourenço Affonso">
+        <title>Cadastre-se Já</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    </head>
+    <body>
+        <div class="simpleForm">
+            <div class="recupera_senha">
+                <h2>Esqueceu a senha?</h2>
+                <form method="post" action="">
+                    <label>Email de recuperação</label>
+                    <input type="text" placeholder="email@gmail.com" required>
+                    <input type="submit" value="Enviar">
+                </form>
+            
+            </div>
+        </div>
+    </body>
+</html>

@@ -16,6 +16,7 @@ input {
   margin:auto;
 }
 .simpleForm {
+  height:auto;
   font-weight: bold;
   color: white;
   position: absolute;
@@ -23,42 +24,49 @@ input {
   text-decoration-color: aliceblue;
   top: 50%;
   left: 50%;
-  width: 600px;
-  padding: 40px;
+  width: 30%;
+  height: auto;
+  padding: 25px;
   background-color: black;
+  border-color: blue;
+  border-width: 2px;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
-  margin: auto;
-  justify-content: space-between;
+  margin:auto;
+  justify-content: space-evenly;
   box-shadow: 0 0 5px #03e8f421,
                 0 0 25px #03e8f421,
                 0 0 50px #03e8f421,
                 0 0 100px #03e8f421;
 }
 .simpleForm .login {
-    font-weight: bold;
+  font-weight: bold;
   flex: 1;
   left: 50%;
-  background: black;
+  background: blue;
   border-color: red;
   border-radius: 10px;
-  width: 25px;
+ 
   padding: 25px;
   margin: 0px;
+*/
 }
+
 .simpleForm .cadastro {
-    font-weight: bold; 
-    flex: 1;
+  font-weight: bold; 
+  flex: 1;
   left: 50%;
-  background:black;
+  background:green;
   border-width: 2px;
   border-color: #0380f4;
   border-radius: 10px;
-  width: 25px;
+  
   padding: 25px;
-  margin: 10px;
+  /*      margin: 50px;
+  */
 }   
+
 .simpleForm .user_input {
     position: relative;
     
@@ -131,4 +139,15 @@ h2:hover{
     0 0 50px #03e8f470,
     0 0 100px #03e8f470;
     animation-delay: .75s;
+}
+.form_codigo{
+  
+}
+.cod_verif{
+  border-radius: 5px;
+  border-color: slategray;
+  border-width: 2px;
+  box-shadow: inset;
+  width: 60px;
+  height: 90px;
 }
